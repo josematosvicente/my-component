@@ -8,6 +8,13 @@ export class MyComponent extends LitElement {
         padding: 25px;
         color: var(--my-component-text-color, #000);
       }
+      button {
+        background-color: red;
+        color: white;
+        width: 200px;
+        height: 30px;
+        border-radius: 5px;
+      }
     `;
   }
 
@@ -21,7 +28,7 @@ export class MyComponent extends LitElement {
   constructor() {
     super();
     this.title = 'Hey there';
-    this.counter = 5;
+    this.counter = 6;
   }
 
   __increment() {
